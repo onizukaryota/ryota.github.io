@@ -1,11 +1,7 @@
-.lessons
-padding-bottom:;
+.lessons {
+padding-bottom:25%;
 text-align:center;
-
-
-
-
-
+  }
 * {
   box-sizing: border-box;
 }
