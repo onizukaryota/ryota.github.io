@@ -1,0 +1,2182 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>りょうた</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" type="tet/css" href="stylesheet.css">
+</head>
+<body>
+<!--
+          <p class="text-contents">りょうたの学校のある日　春、夏、冬の休みの日の１日、学校のある1日<br>学校のある土　日ようびのことを曜日ごとに紹介するよ。</p>
+          <a href="https://onizukaryota.github.io/day/">
+          <span class="btn message">りょうたの１日へ</span>
+          -->
+       <h1>漢字一覧</h1>
+       <h2>1年生の漢字</h2>
+       <div class="kakusuuji-zen">
+          <!-- インナー -->
+          <span id="k-1" class="K-modal-open" onclick="getID(this)">一</span>
+          <div id="k-1-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 一 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>イチ</p>
+                <p>一度、一座、第一</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>イツ</p>
+                <p>一般、同一、統一</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ひと</p>
+                <p>一息、一筋、一月目</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ひと-つ</p>
+                <p>一つ</p>
+              </div>
+              <div><span>画数</span>1画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-2" class="K-modal-open" onclick="getID(this)">右</span>
+          <div id="k-2-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 右 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ウ</p>
+                <p>右岸、右折、右派</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ユウ</p>
+                <p>左右、座右</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>みぎ</p>
+                <p>右、右手</p>
+              </div>
+              <div><span>画数</span>5画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-3" class="K-modal-open" onclick="getID(this)">雨</span>
+          <div id="k-3-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 雨 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ウ</p>
+                <p>雨量、降雨、梅雨</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>あめ</p>
+                <p>雨、大雨</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>あま</p>
+                <p>雨雲、雨戸、雨具</p>
+              </div>
+              <div><span>画数</span>8画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-4" class="K-modal-open" onclick="getID(this)">円</span>
+          <div id="k-4-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 円 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>エン</p>
+                <p>円卓、円熟、一円</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>まる-い</p>
+                <p>円い、円さ、円み</p>
+              </div>
+              <div><span>画数</span>4画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-5" class="K-modal-open" onclick="getID(this)">王</span>
+          <div id="k-5-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 王 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>オウ</p>
+                <p>王子、帝王</p>
+              </div>
+              <div><span>画数</span>0画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-6" class="K-modal-open" onclick="getID(this)">音</span>
+          <div id="k-6-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 音 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>オン</p>
+                <p>音楽、発音、騒音</p>
+              </div>
+              <div class="yomi">
+                <p><span class="tyuu">中学</span></p>
+                <p>イン</p>
+                <p>福音、母音</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>おと</p>
+                <p>音、物音</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ね</p>
+                <p>音、音色</p>
+              </div>
+              <div><span>画数</span>9画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-7" class="K-modal-open" onclick="getID(this)">下</span>
+          <div id="k-7-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 下 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>カ</p>
+                <p>下流、下降、落下</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ゲ</p>
+                <p>下水、下車、上下</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>した</p>
+                <p>下、下見</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>しも</p>
+                <p>下、川下</p>
+              </div>
+              <div class="yomi">
+                <p><span class="tyuu">中学</span></p>
+                <p>もと</p>
+                <p>下、足下</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>さ-げる</p>
+                <p>下げる</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>さ-がる</p>
+                <p>下がる</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>くだ-る</p>
+                <p>下る、下り</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>くだ-す</p>
+                <p>下す</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>くだ-さる</p>
+                <p>下さる</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>お-ろす</p>
+                <p>下ろす、書き下ろす</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>お-りる</p>
+                <p>下りる</p>
+              </div>
+              <div><span>画数</span>3画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-8" class="K-modal-open" onclick="getID(this)">火</span>
+          <div id="k-8-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 火 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>カ</p>
+                <p>火災、灯火、発火</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ひ</p>
+                <p>火、火花、炭火</p>
+              </div>
+              <div class="yomi">
+                <p><span class="koko">高校</span></p>
+                <p>ほ</p>
+                <p>火影</p>
+              </div>
+              <div><span>画数</span>4画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-9" class="K-modal-open" onclick="getID(this)">花</span>
+          <div id="k-9-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 花 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>カ</p>
+                <p>花弁、花壇、落花</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>はな</p>
+                <p>花、花火、草花</p>
+              </div>
+              <div><span>画数</span>7画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-10" class="K-modal-open" onclick="getID(this)">貝</span>
+          <div id="k-10-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 貝 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>かい</p>
+                <p>貝、貝細工、ほら貝</p>
+              </div>
+              <div><span>画数</span>7画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-11" class="K-modal-open" onclick="getID(this)">学</span>
+          <div id="k-11-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 学 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ガク</p>
+                <p>学習、科学、大学</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>まな-ぶ</p>
+                <p>学ぶ</p>
+              </div>
+              <div><span>画数</span>8画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-12" class="K-modal-open" onclick="getID(this)">気</span>
+          <div id="k-12-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 気 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>キ</p>
+                <p>気体、気候、元気</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ケ</p>
+                <p>気配、気色ばむ、火の気</p>
+              </div>
+              <div><span>画数</span>6画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-13" class="K-modal-open" onclick="getID(this)">九</span>
+          <div id="k-13-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 九 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>キュウ</p>
+                <p>九百、三拝九拝</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ク</p>
+                <p>九分九厘、九月</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ここの</p>
+                <p>九日、九重</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ここの-つ</p>
+                <p>九つ</p>
+              </div>
+              <div><span>画数</span>2画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-14" class="K-modal-open" onclick="getID(this)">休</span>
+          <div id="k-14-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 休 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>キュウ</p>
+                <p>休止、休憩、定休</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>やす-む</p>
+                <p>休む、休み</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>やす-まる</p>
+                <p>休まる</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>やす-める</p>
+                <p>休める、気休め</p>
+              </div>
+              <div><span>画数</span>6画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-15" class="K-modal-open" onclick="getID(this)">玉</span>
+          <div id="k-15-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 玉 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ギョク</p>
+                <p>玉座、玉石、宝玉</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>たま</p>
+                <p>玉、目玉</p>
+              </div>
+              <div><span>画数</span>5画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-16" class="K-modal-open" onclick="getID(this)">金</span>
+          <div id="k-16-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 金 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>キン</p>
+                <p>金属、金銭、純金</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>コン</p>
+                <p>金色、金剛力、黄金</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>かね</p>
+                <p>金、金持ち、針金</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>かな</p>
+                <p>金物、金具、金縛り</p>
+              </div>
+              <div><span>画数</span>8画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-17" class="K-modal-open" onclick="getID(this)">空</span>
+          <div id="k-17-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 空 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>クウ</p>
+                <p>空想、空港、上空</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>そら</p>
+                <p>空、空色、青空</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>あ-く</p>
+                <p>空く、空き巣</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>あ-ける</p>
+                <p>空ける</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>から</p>
+                <p>空、空手、空手形</p>
+              </div>
+              <div><span>画数</span>8画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-18" class="K-modal-open" onclick="getID(this)">月</span>
+          <div id="k-18-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 月 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ゲツ</p>
+                <p>月曜、明月、歳月</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ガツ</p>
+                <p>正月、九月</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>つき</p>
+                <p>月、月見、三日月</p>
+              </div>
+              <div><span>画数</span>4画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-19" class="K-modal-open" onclick="getID(this)">犬</span>
+          <div id="k-19-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 犬 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ケン</p>
+                <p>犬歯、愛犬、野犬</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>いぬ</p>
+                <p>犬</p>
+              </div>
+              <div><span>画数</span>4画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-20" class="K-modal-open" onclick="getID(this)">見</span>
+          <div id="k-20-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 見 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ケン</p>
+                <p>見学、見地、意見</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>み-る</p>
+                <p>見る、下見</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>み-える</p>
+                <p>見える</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>み-せる</p>
+                <p>見せる、顔見せ</p>
+              </div>
+              <div><span>画数</span>7画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-21" class="K-modal-open" onclick="getID(this)">五</span>
+          <div id="k-21-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 五 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ゴ</p>
+                <p>五穀、五色、五目飯</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>いつ</p>
+                <p>五日</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>いつ-つ</p>
+                <p>五つ</p>
+              </div>
+              <div><span>画数</span>4画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-22" class="K-modal-open" onclick="getID(this)">口</span>
+          <div id="k-22-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 口 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>コウ</p>
+                <p>口述、人口、開口</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ク</p>
+                <p>口調、口伝、異口同音</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>くち</p>
+                <p>口、口絵、出口</p>
+              </div>
+              <div><span>画数</span>3画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-23" class="K-modal-open" onclick="getID(this)">校</span>
+          <div id="k-23-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 校 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>コウ</p>
+                <p>校閲、将校、学校</p>
+              </div>
+              <div><span>画数</span>10画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-24" class="K-modal-open" onclick="getID(this)">左</span>
+          <div id="k-24-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 左 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>サ</p>
+                <p>左右、左翼、左遷</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ひだり</p>
+                <p>左、左利き</p>
+              </div>
+              <div><span>画数</span>5画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-25" class="K-modal-open" onclick="getID(this)">三</span>
+          <div id="k-25-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 三 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>サン</p>
+                <p>三角、三流、再三</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>み</p>
+                <p>三日月、三日（みっか）</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>み-つ</p>
+                <p>三つ指</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>みっ-つ</p>
+                <p>三つ</p>
+              </div>
+              <div><span>画数</span>3画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-26" class="K-modal-open" onclick="getID(this)">山</span>
+          <div id="k-26-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 山 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>サン</p>
+                <p>山脈、高山、登山</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>やま</p>
+                <p>山</p>
+              </div>
+              <div><span>画数</span>3画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-27" class="K-modal-open" onclick="getID(this)">子</span>
+          <div id="k-27-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 子 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>シ</p>
+                <p>子孫、女子、帽子</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ス</p>
+                <p>金子、扇子、様子</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>こ</p>
+                <p>子、親子、年子</p>
+              </div>
+              <div><span>画数</span>3画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-28" class="K-modal-open" onclick="getID(this)">四</span>
+          <div id="k-28-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 四 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>シ</p>
+                <p>四角、四季、四十七士</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>よ</p>
+                <p>四人、四日（よっか）、四月目</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>よ-つ</p>
+                <p>四つ角</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>よっ-つ</p>
+                <p>四つ</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>よん</p>
+                <p>四回、四階</p>
+              </div>
+              <div><span>画数</span>5画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-29" class="K-modal-open" onclick="getID(this)">糸</span>
+          <div id="k-29-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 糸 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>シ</p>
+                <p>綿糸、蚕糸、製糸</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>いと</p>
+                <p>糸、糸目、毛糸</p>
+              </div>
+              <div><span>画数</span>6画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-30" class="K-modal-open" onclick="getID(this)">字</span>
+          <div id="k-30-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 字 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ジ</p>
+                <p>字画、文字、活字</p>
+              </div>
+              <div class="yomi">
+                <p><span class="tyuu">中学</span></p>
+                <p>あざ</p>
+                <p>字、大字</p>
+              </div>
+              <div><span>画数</span>6画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-31" class="K-modal-open" onclick="getID(this)">耳</span>
+          <div id="k-31-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 耳 」</div>
+              <div class="yomi">
+                <p><span class="tyuu">中学</span></p>
+                <p>ジ</p>
+                <p>耳鼻科、中耳炎</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>みみ</p>
+                <p>耳、早耳</p>
+              </div>
+              <div><span>画数</span>6画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-32" class="K-modal-open" onclick="getID(this)">七</span>
+          <div id="k-32-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 七 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>シチ</p>
+                <p>七五三、七福神</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>なな</p>
+                <p>七月目</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>なな-つ</p>
+                <p>七つ</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>なの</p>
+                <p>七日</p>
+              </div>
+              <div><span>画数</span>2画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-33" class="K-modal-open" onclick="getID(this)">車</span>
+          <div id="k-33-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 車 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>シャ</p>
+                <p>車輪、車庫、電車</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>くるま</p>
+                <p>車、歯車</p>
+              </div>
+              <div><span>画数</span>7画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-34" class="K-modal-open" onclick="getID(this)">手</span>
+          <div id="k-34-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 手 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>シュ</p>
+                <p>手腕、挙手、選手</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>て</p>
+                <p>手、手柄、素手</p>
+              </div>
+              <div class="yomi">
+                <p><span class="tyuu">中学</span></p>
+                <p>た</p>
+                <p>手綱、手繰る</p>
+              </div>
+              <div><span>画数</span>4画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-35" class="K-modal-open" onclick="getID(this)">十</span>
+          <div id="k-35-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 十 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ジュウ</p>
+                <p>十字架、十文字</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ジッ</p>
+                <p>十回</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>とお</p>
+                <p>十、十日</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>と</p>
+                <p>十色、十重</p>
+              </div>
+              <div><span>画数</span>2画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-36" class="K-modal-open" onclick="getID(this)">出</span>
+          <div id="k-36-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 出 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>シュツ</p>
+                <p>出入、出現、提出</p>
+              </div>
+              <div class="yomi">
+                <p><span class="tyuu">中学</span></p>
+                <p>スイ</p>
+                <p>出納</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>で-る</p>
+                <p>出る、出窓、遠出</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>だ-す</p>
+                <p>出す</p>
+              </div>
+              <div><span>画数</span>5画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-37" class="K-modal-open" onclick="getID(this)">女</span>
+          <div id="k-37-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 女 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ジョ</p>
+                <p>女子、女流、少女</p>
+              </div>
+              <div class="yomi">
+                <p><span class="tyuu">中学</span></p>
+                <p>ニョ</p>
+                <p>女人、天女、善男善女</p>
+              </div>
+              <div class="yomi">
+                <p><span class="koko">高校</span></p>
+                <p>ニョウ</p>
+                <p>女房</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>おんな</p>
+                <p>女、女心、女らしい</p>
+              </div>
+              <div class="yomi">
+                <p><span class="tyuu">中学</span></p>
+                <p>め</p>
+                <p>女神、女々しい</p>
+              </div>
+              <div><span>画数</span>3画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-38" class="K-modal-open" onclick="getID(this)">小</span>
+          <div id="k-38-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 小 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ショウ</p>
+                <p>小心、大小、縮小</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ちい-さい</p>
+                <p>小さい、小さな</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>こ</p>
+                <p>小型、小鳥、小切手</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>お</p>
+                <p>小川、小暗い</p>
+              </div>
+              <div><span>画数</span>3画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-39" class="K-modal-open" onclick="getID(this)">上</span>
+          <div id="k-39-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 上 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ジョウ</p>
+                <p>上旬、上昇、地上</p>
+              </div>
+              <div class="yomi">
+                <p><span class="koko">高校</span></p>
+                <p>ショウ</p>
+                <p>上人、身上を潰す</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>うえ</p>
+                <p>上、身の上</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>うわ</p>
+                <p>上着、上積み</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>かみ</p>
+                <p>上、川上</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>あ-げる</p>
+                <p>上げる、売り上げ</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>あ-がる</p>
+                <p>上がる、上がり</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>のぼ-る</p>
+                <p>上る、上り</p>
+              </div>
+              <div class="yomi">
+                <p><span class="tyuu">中学</span></p>
+                <p>のぼ-せる</p>
+                <p>上せる</p>
+              </div>
+              <div class="yomi">
+                <p><span class="tyuu">中学</span></p>
+                <p>のぼ-す</p>
+                <p>上す</p>
+              </div>
+              <div><span>画数</span>3画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-40" class="K-modal-open" onclick="getID(this)">森</span>
+          <div id="k-40-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 森 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>シン</p>
+                <p>森林、森閑、森厳</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>もり</p>
+                <p>森</p>
+              </div>
+              <div><span>画数</span>12画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-41" class="K-modal-open" onclick="getID(this)">人</span>
+          <div id="k-41-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 人 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ジン</p>
+                <p>人道、人員、成人</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ニン</p>
+                <p>人間、人情、人形</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ひと</p>
+                <p>人、人手、旅人</p>
+              </div>
+              <div><span>画数</span>2画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-42" class="K-modal-open" onclick="getID(this)">水</span>
+          <div id="k-42-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 水 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>スイ</p>
+                <p>水分、水陸、海水</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>みず</p>
+                <p>水、水色、水浴び</p>
+              </div>
+              <div><span>画数</span>4画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-43" class="K-modal-open" onclick="getID(this)">正</span>
+          <div id="k-43-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 正 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>セイ</p>
+                <p>正義、正誤、訂正</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ショウ</p>
+                <p>正直、正面、正月</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ただ-しい</p>
+                <p>正しい、正しさ</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ただ-す</p>
+                <p>正す</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>まさ</p>
+                <p>正に、正夢</p>
+              </div>
+              <div><span>画数</span>5画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-44" class="K-modal-open" onclick="getID(this)">生</span>
+          <div id="k-44-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 生 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>セイ</p>
+                <p>生活、発生、先生</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ショウ</p>
+                <p>生滅、一生、誕生</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>い-きる</p>
+                <p>生きる、長生き</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>い-かす</p>
+                <p>生かす</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>い-ける</p>
+                <p>生ける、生け捕り</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>う-まれる</p>
+                <p>生まれる、生まれ</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>う-む</p>
+                <p>生む</p>
+              </div>
+              <div class="yomi">
+                <p><span class="tyuu">中学</span></p>
+                <p>お-う</p>
+                <p>生い立ち、生い茂る</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>は-える</p>
+                <p>生える、芽生える</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>は-やす</p>
+                <p>生やす</p>
+              </div>
+              <div class="yomi">
+                <p><span class="tyuu">中学</span></p>
+                <p>き</p>
+                <p>生糸、生地、生一本</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>なま</p>
+                <p>生の野菜、生水、生々しい</p>
+              </div>
+              <div><span>画数</span>5画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-45" class="K-modal-open" onclick="getID(this)">青</span>
+          <div id="k-45-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 青 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>セイ</p>
+                <p>青天、青銅、青年</p>
+              </div>
+              <div class="yomi">
+                <p><span class="koko">高校</span></p>
+                <p>ショウ</p>
+                <p>緑青、紺青、群青</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>あお</p>
+                <p>青、青ざめる</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>あお-い</p>
+                <p>青い、青さ</p>
+              </div>
+              <div><span>画数</span>8画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-46" class="K-modal-open" onclick="getID(this)">夕</span>
+          <div id="k-46-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 夕 」</div>
+              <div class="yomi">
+                <p><span class="tyuu">中学</span></p>
+                <p>セキ</p>
+                <p>今夕、一朝一夕</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ゆう</p>
+                <p>夕方、夕日、夕べ</p>
+              </div>
+              <div><span>画数</span>3画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-47" class="K-modal-open" onclick="getID(this)">石</span>
+          <div id="k-47-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 石 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>セキ</p>
+                <p>石材、岩石、宝石</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>シャク</p>
+                <p>磁石</p>
+              </div>
+              <div class="yomi">
+                <p><span class="tyuu">中学</span></p>
+                <p>コク</p>
+                <p>石高、千石船</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>いし</p>
+                <p>石、小石</p>
+              </div>
+              <div><span>画数</span>5画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-48" class="K-modal-open" onclick="getID(this)">赤</span>
+          <div id="k-48-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 赤 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>セキ</p>
+                <p>赤道、赤貧、発赤</p>
+              </div>
+              <div class="yomi">
+                <p><span class="koko">高校</span></p>
+                <p>シャク</p>
+                <p>赤銅</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>あか</p>
+                <p>赤、赤字、赤ん坊</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>あか-い</p>
+                <p>赤い</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>あか-らむ</p>
+                <p>赤らむ</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>あか-らめる</p>
+                <p>赤らめる</p>
+              </div>
+              <div><span>画数</span>7画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-49" class="K-modal-open" onclick="getID(this)">千</span>
+          <div id="k-49-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 千 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>セン</p>
+                <p>千円、千人力、千差万別</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ち</p>
+                <p>千草、千々に</p>
+              </div>
+              <div><span>画数</span>3画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-50" class="K-modal-open" onclick="getID(this)">川</span>
+          <div id="k-50-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 川 」</div>
+              <div class="yomi">
+                <p><span class="tyuu">中学</span></p>
+                <p>セン</p>
+                <p>川柳、河川</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>かわ</p>
+                <p>川、川岸、小川</p>
+              </div>
+              <div><span>画数</span>3画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-51" class="K-modal-open" onclick="getID(this)">先</span>
+          <div id="k-51-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 先 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>セン</p>
+                <p>先方、先生、率先</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>さき</p>
+                <p>先、先立つ</p>
+              </div>
+              <div><span>画数</span>6画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-52" class="K-modal-open" onclick="getID(this)">早</span>
+          <div id="k-52-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 早 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ソウ</p>
+                <p>早朝、早晩、早々に</p>
+              </div>
+              <div class="yomi">
+                <p><span class="tyuu">中学</span></p>
+                <p>サッ</p>
+                <p>早速、早急</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>はや-い</p>
+                <p>早い、早口、素早い</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>はや-まる</p>
+                <p>早まる</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>はや-める</p>
+                <p>早める</p>
+              </div>
+              <div><span>画数</span>6画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-53" class="K-modal-open" onclick="getID(this)">草</span>
+          <div id="k-53-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 草 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ソウ</p>
+                <p>草案、雑草、牧草</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>くさ</p>
+                <p>草、草花、語り草</p>
+              </div>
+              <div><span>画数</span>9画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-54" class="K-modal-open" onclick="getID(this)">足</span>
+          <div id="k-54-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 足 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ソク</p>
+                <p>足跡、遠足、補足</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>あし</p>
+                <p>足、足音、素足</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>た-りる</p>
+                <p>足りる</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>た-る</p>
+                <p>舌足らず</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>た-す</p>
+                <p>足す</p>
+              </div>
+              <div><span>画数</span>7画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-55" class="K-modal-open" onclick="getID(this)">村</span>
+          <div id="k-55-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 村 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ソン</p>
+                <p>村長、村落、農村</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>むら</p>
+                <p>村、村里、村芝居</p>
+              </div>
+              <div><span>画数</span>7画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-56" class="K-modal-open" onclick="getID(this)">大</span>
+          <div id="k-56-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 大 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ダイ</p>
+                <p>大小、大胆、拡大</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>タイ</p>
+                <p>大衆、大した、大して</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>おお</p>
+                <p>大型、大通り、大水</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>おお-きい</p>
+                <p>大きい、大きさ、大きな</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>おお-いに</p>
+                <p>大いに</p>
+              </div>
+              <div><span>画数</span>3画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-57" class="K-modal-open" onclick="getID(this)">男</span>
+          <div id="k-57-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 男 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ダン</p>
+                <p>男子、男女、男性</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ナン</p>
+                <p>長男、美男、善男善女</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>おとこ</p>
+                <p>男、男らしい</p>
+              </div>
+              <div><span>画数</span>7画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-58" class="K-modal-open" onclick="getID(this)">竹</span>
+          <div id="k-58-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 竹 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>チク</p>
+                <p>竹林、竹馬の友、爆竹</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>たけ</p>
+                <p>竹、竹やぶ、さお竹</p>
+              </div>
+              <div><span>画数</span>6画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-59" class="K-modal-open" onclick="getID(this)">中</span>
+          <div id="k-59-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 中 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>チュウ</p>
+                <p>中央、中毒、胸中</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ジュウ</p>
+                <p>○○中</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>なか</p>
+                <p>中、中庭、真ん中</p>
+              </div>
+              <div><span>画数</span>4画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-60" class="K-modal-open" onclick="getID(this)">虫</span>
+          <div id="k-60-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 虫 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>チュウ</p>
+                <p>虫類、幼虫、害虫</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>むし</p>
+                <p>虫、毛虫</p>
+              </div>
+              <div><span>画数</span>6画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-61" class="K-modal-open" onclick="getID(this)">町</span>
+          <div id="k-61-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 町 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>チョウ</p>
+                <p>町会、市町村</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>まち</p>
+                <p>町、町外れ</p>
+              </div>
+              <div><span>画数</span>7画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-62" class="K-modal-open" onclick="getID(this)">天</span>
+          <div id="k-62-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 天 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>テン</p>
+                <p>天地、天然、雨天</p>
+              </div>
+              <div class="yomi">
+                <p><span class="koko">高校</span></p>
+                <p>あめ</p>
+                <p>天</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>あま</p>
+                <p>天の川、天下り</p>
+              </div>
+              <div><span>画数</span>4画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-63" class="K-modal-open" onclick="getID(this)">田</span>
+          <div id="k-63-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 田 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>デン</p>
+                <p>田地、水田、油田</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>た</p>
+                <p>田、田植え</p>
+              </div>
+              <div><span>画数</span>5画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-64" class="K-modal-open" onclick="getID(this)">土</span>
+          <div id="k-64-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 土 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ド</p>
+                <p>土木、国土、粘土</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ト</p>
+                <p>土地</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>つち</p>
+                <p>土、赤土</p>
+              </div>
+              <div><span>画数</span>3画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-65" class="K-modal-open" onclick="getID(this)">二</span>
+          <div id="k-65-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 二 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ニ</p>
+                <p>二番目、二分、十二月</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ふた</p>
+                <p>二重まぶた</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ふた-つ</p>
+                <p>二つ</p>
+              </div>
+              <div><span>画数</span>2画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-66" class="K-modal-open" onclick="getID(this)">日</span>
+          <div id="k-66-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 日 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ニチ</p>
+                <p>日時、日光、毎日</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ジツ</p>
+                <p>連日、平日、休日</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ひ</p>
+                <p>日、日帰り、月曜日</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>か</p>
+                <p>三日、十日</p>
+              </div>
+              <div><span>画数</span>4画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-67" class="K-modal-open" onclick="getID(this)">入</span>
+          <div id="k-67-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 入 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ニュウ</p>
+                <p>入学、侵入、収入</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>い-る</p>
+                <p>寝入る、大入り、気に入る</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>い-れる</p>
+                <p>入れる、入れ物</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>はい-る</p>
+                <p>入る</p>
+              </div>
+              <div><span>画数</span>2画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-68" class="K-modal-open" onclick="getID(this)">年</span>
+          <div id="k-68-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 年 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ネン</p>
+                <p>年代、少年、豊年</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>とし</p>
+                <p>年、年子、年寄り</p>
+              </div>
+              <div><span>画数</span>6画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-69" class="K-modal-open" onclick="getID(this)">白</span>
+          <div id="k-69-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 白 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ハク</p>
+                <p>白髪、紅白、明白</p>
+              </div>
+              <div class="yomi">
+                <p><span class="koko">高校</span></p>
+                <p>ビャク</p>
+                <p>黒白</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>しろ</p>
+                <p>白、白黒、真っ白</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>しら</p>
+                <p>白壁、白む、白ける</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>しろ-い</p>
+                <p>白い</p>
+              </div>
+              <div><span>画数</span>5画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-70" class="K-modal-open" onclick="getID(this)">八</span>
+          <div id="k-70-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 八 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ハチ</p>
+                <p>八月、八方</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>や</p>
+                <p>八重桜</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>や-つ</p>
+                <p>八つ当たり</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>やっ-つ</p>
+                <p>八つ</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>よう</p>
+                <p>八日</p>
+              </div>
+              <div><span>画数</span>2画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-71" class="K-modal-open" onclick="getID(this)">百</span>
+          <div id="k-71-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 百 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ヒャク</p>
+                <p>百貨店、百科全書、数百</p>
+              </div>
+              <div><span>画数</span>6画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-72" class="K-modal-open" onclick="getID(this)">文</span>
+          <div id="k-72-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 文 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ブン</p>
+                <p>文学、文化、作文</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>モン</p>
+                <p>文字、経文、天文学</p>
+              </div>
+              <div class="yomi">
+                <p><span class="tyuu">中学</span></p>
+                <p>ふみ</p>
+                <p>恋文</p>
+              </div>
+              <div><span>画数</span>4画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-73" class="K-modal-open" onclick="getID(this)">木</span>
+          <div id="k-73-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 木 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ボク</p>
+                <p>木石、大木、土木</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>モク</p>
+                <p>木造、樹木、材木</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>き</p>
+                <p>木、並木、拍子木</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>こ</p>
+                <p>木立、木陰</p>
+              </div>
+              <div><span>画数</span>4画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-74" class="K-modal-open" onclick="getID(this)">本</span>
+          <div id="k-74-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 本 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ホン</p>
+                <p>本質、本来、資本</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>もと</p>
+                <p>本、旗本</p>
+              </div>
+              <div><span>画数</span>5画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-75" class="K-modal-open" onclick="getID(this)">名</span>
+          <div id="k-75-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 名 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>メイ</p>
+                <p>名誉、氏名、有名</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ミョウ</p>
+                <p>名字、本名、大名</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>な</p>
+                <p>名、名前</p>
+              </div>
+              <div><span>画数</span>6画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-76" class="K-modal-open" onclick="getID(this)">目</span>
+          <div id="k-76-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 目 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>モク</p>
+                <p>目的、目前、項目</p>
+              </div>
+              <div class="yomi">
+                <p><span class="tyuu">中学</span></p>
+                <p>ボク</p>
+                <p>面目</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>め</p>
+                <p>目、目立つ、結び目</p>
+              </div>
+              <div class="yomi">
+                <p><span class="koko">高校</span></p>
+                <p>ま</p>
+                <p>目の当たり、目深</p>
+              </div>
+              <div><span>画数</span>5画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-77" class="K-modal-open" onclick="getID(this)">立</span>
+          <div id="k-77-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 立 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>リツ</p>
+                <p>立案、起立、独立</p>
+              </div>
+              <div class="yomi">
+                <p><span class="koko">高校</span></p>
+                <p>リュウ</p>
+                <p>建立</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>た-つ</p>
+                <p>立つ、立場、夕立</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>た-てる</p>
+                <p>立てる、立て札</p>
+              </div>
+              <div><span>画数</span>5画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-78" class="K-modal-open" onclick="getID(this)">力</span>
+          <div id="k-78-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 力 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>リョク</p>
+                <p>権力、努力、能力</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>リキ</p>
+                <p>力量、力作、馬力</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ちから</p>
+                <p>力、力仕事、底力</p>
+              </div>
+              <div><span>画数</span>2画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-79" class="K-modal-open" onclick="getID(this)">林</span>
+          <div id="k-79-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 林 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>リン</p>
+                <p>林業、林立、山林</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>はやし</p>
+                <p>林、松林</p>
+              </div>
+              <div><span>画数</span>8画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div><span id="k-80" class="K-modal-open" onclick="getID(this)">六</span>
+          <div id="k-80-box" class="modalbox">
+            <div id="K-closebatu">×</div>
+            <div class="mojibox">
+              <div>「 六 」</div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>ロク</p>
+                <p>六月、六法、丈六</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>む</p>
+                <p>六月目</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>む-つ</p>
+                <p>六つ切り</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>むっ-つ</p>
+                <p>六つ</p>
+              </div>
+              <div class="yomi">
+                <p><span class="syou">小学</span></p>
+                <p>むい</p>
+                <p>六日</p>
+              </div>
+              <div><span>画数</span>4画</div>
+            </div>
+            <div class="setu">
+              <p><span>小学</span><span>中学</span><span>高校</span>は、読みかたを学習する学校</p>
+            </div>
+          </div>
+
+          <!-- /.インナー -->
+        </div>
+    </div>
+  </footer>
+</body>
+</html>
